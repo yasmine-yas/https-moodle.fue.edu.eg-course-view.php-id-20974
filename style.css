@@ -1,9 +1,87 @@
 body{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FM-Orth-Program-at-Future-University-Egypt-158254687603474%2F&psig=AOvVaw2L-KEycClbAsm61Q5jXH4r&ust=1606417828594000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiegKCznu0CFQAAAAAdAAAAABAD);
-
-background-repeat: no-repeat;
-background-position: center;
-
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2yI2UcYyv_Vq6IHXf6_eXlopWlcGcUcVAvA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
 
 }
 
+.title{
+       text-align: center;
+ } 
+ ul{
+    list-style-type: none;
+    border-radius: 15px;
+    border: 1px solid #eeeeee ;
+    background-color: bisque;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    color: black;
+ }
+ li{
+     float: left;
+ }
+  
+ a{
+     text-decoration: none;
+     color: chocolate;
+ }
+
+
+ li a {
+     display: block;
+     color: rgb(88, 56, 40);
+     padding-right: 25px;
+     padding-left: 25px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+ }
+
+ li a:hover{
+     background-color: rgb(83, 72, 72);
+     color: darkgray;
+     
+ }
+ li a.active{
+     background-color: rgb(95, 74, 74);
+     color: white;
+     
+ }
+ .Nav-right{
+     float: right;
+ }
+ div{
+     border: 3px solid;
+     border-style: dotted;
+     box-shadow: rgb(155, 150, 140);
+     background-image: linear-gradient( rgb(68, 64, 58) , rgb(153, 146, 104));
+ }
+ table{
+     width: 100%;
+     color: white;
+ }
+ thead tr{
+     text-align: center;
+     background-color: rgb(73, 47, 43);
+     
+     font: bold;
+     font-size: x-large;
+         color: black;
+ 
+        }
+        tbody tr:nth-child(even){
+            background-color: rgb(85, 66, 66);
+            color: black;
+        }
+    
+    tbody tr:nth-child(odd){
+        background-color: rgb(139, 132, 132);
+        color: black;
+    }
